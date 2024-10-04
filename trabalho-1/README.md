@@ -54,3 +54,11 @@ python scan.py
 ```
 
 Você pode alterar, dentro do script `http-server.py`, a porta 8080 para a porta 80. No entanto, talvez seja necessário executar este script como administrador.
+
+## Comentários adicionais
+
+Não é necessário arquivo Makefile, pois:
+
+- Os scripts são interpretados
+- Não possuem dependências além do interpretador
+- As chamadas são bastante simples (`python <nome do programa>.py`)
