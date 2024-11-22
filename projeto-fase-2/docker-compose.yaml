@@ -1,0 +1,10 @@
+version: '3'
+services:
+  vulnerable-server:
+    build:
+      context: vulnerable-server
+    container_name: vulnerable-server
+
+  invaded-machine:
+    build:
+      context: invaded-machine
